@@ -1,4 +1,4 @@
 ## js course
 
 
-## this is from my pc
+## this is from my pc-home
