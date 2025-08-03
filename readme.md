@@ -1,6 +1,6 @@
 ## js course
 
 
-## lesson 06 done
+## lesson 07 done
 
-## lesson 06 exercises done 3:34:10
+## lesson 07 exercises are not done 4:15:15
