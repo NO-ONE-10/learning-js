@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>7g</title>
+</head>
+
+<body>
+
+  <script>
+
+    // this i type
+
+    // function convertLenght(lenght, from, to) {
+    //   if (from === 'KM' && to === 'Miles') {
+
+    //     function convertToMiles(km) {
+    //       return (km / 1.6);
+    //     }
+
+    //     const result = convertToMiles(lenght);
+
+    //     return `${result} Miles`
+
+    //   } else if (from === 'Miles' && to === 'KM') {
+
+    //     function convertToKM(Miles) {
+    //       return (Miles * 1.6)
+    //     }
+
+    //     const result = convertToKM(lenght);
+
+    //     return `${result} KM`
+
+    //   }else if (from === 'KM' && to === 'KM') {
+
+    //     return `${lenght} KM`
+
+    //   }else if (from === 'Miles' && to === 'Miles') {
+
+    //     return `${lenght} Miles`
+
+    //   }
+    // }
+
+    // console.log(convertLenght(32, 'KM', 'Miles'));
+    // console.log(convertLenght(50, 'Miles', 'KM'));
+    // console.log(convertLenght(50, 'KM', 'KM'));
+    // console.log(convertLenght(500, 'Miles', 'Miles'));
+
+    // this is from course
+
+    function convertLenght(lenght, from, to) {
+      if (from === 'km' && to === 'miles') {
+        return `${lenght / 1.6} miles`
+      } else if (from === 'miles' && to === 'km') {
+        return `${lenght * 1.6} km`
+      } else if (from === to) {
+        return `${lenght}`
+      }
+    }
+
+    console.log(convertLenght(50, 'miles', 'km'));
+    console.log(convertLenght(32, 'km', 'miles'));
+    console.log(convertLenght(50, 'km', 'km'));
+
+
+
+  </script>
+
+</body>
+
+</html>
