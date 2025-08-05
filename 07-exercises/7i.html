@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>7h</title>
+</head>
+<body>
+
+  <script>
+
+    function convertLenght(lenght, from, to) {
+
+      if (from !== 'ft' && from !== 'miles' && from !== 'km') {
+        return `Invalid unit ${from}`
+
+      }else if (to !== 'ft' && to !== 'miles' && to !== 'km') {
+        return `Invalid unit ${from}`
+      }
+
+
+      if (from === 'km' && to === 'miles') {
+        return `${lenght / 1.6} miles`
+
+      } else if (from === 'miles' && to === 'km') {
+        return `${lenght * 1.6} km`
+
+      } else if (from === to) {
+        return `${lenght}`
+
+      }else if (from === 'km' && to === 'ft') {
+        return `${lenght * 3281} ft`
+
+      }else if (from === 'ft' && to === 'km') {
+        return `${lenght / 3281} km`
+
+      }else if (from === 'miles' && to === 'ft') {
+        return `${lenght * 5280} ft`
+
+      }else if (from === 'ft' && to === 'miles') {
+        return `${lenght / 5280} miles`
+      }
+      
+    }
+
+    console.log(convertLenght(50, 'miles', 'km'));
+    console.log(convertLenght(32, 'km', 'miles'));
+    console.log(convertLenght(50, 'km', 'km'));
+
+    console.log(convertLenght(5, 'miles', 'km'));
+    console.log(convertLenght(5, 'miles', 'ft'));
+    console.log(convertLenght(5, 'km', 'ft'));
+    console.log(convertLenght(16405, 'ft', 'km'));
+
+    console.log(convertLenght(5, 'IBL', 'IBL'));
+
+  </script>
+  
+</body>
+</html>
