@@ -1,7 +1,7 @@
 ## js course
 
 
-## lesson 07 done
+## lesson 08 shortcut left 5:22:59
 
 
-## lesson 07 exercises 3 left 4:15:15
+## lesson 08 exercises left 
