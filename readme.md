@@ -4,4 +4,4 @@
 ## lesson 08 done 
 
 
-## lesson 08 exercises 7 left 5:25:27
+## lesson 08 exercises 6 left 5:25:27
